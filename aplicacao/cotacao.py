@@ -1,7 +1,3 @@
-# Crie um programa que leia quanto dinheiro uma pessoa tem na carteira e mostre quantos dólares ela pode comprar.
-# obs este conversor não utiliza a cotação atual. cotação do dia 22/07/2020
-# este processo será introduzido em uma versão futura;
-
 import os
 import sys
 from pathlib import Path
