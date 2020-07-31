@@ -28,20 +28,20 @@ class Projeto:
 
 
     def create_canvas_area(self):
-        moedas = ['USD - Dólar Comercial',
-        'USDT - Dólar Turismo',
-        'CAD - Dólar Canadense',
+        moedas = ['ARS - Peso Argentino',
         'AUD - Dólar Australiano',
-        'EUR - Euro',
-        'GBP - Libra Esterlina',
-        'ARS - Peso Argentino',
-        'JPY - Iene Japonês',
+        'BTC - Bitcoin',
+        'CAD - Dólar Canadense',
         'CHF - Franco Suíço',
         'CNY - Yuan Chinês',
-        'ILS - Novo Shekel Israelense',
-        'BTC - Bitcoin',
-        'LTC - Litecoin',
         'ETH - Ethereum',
+        'EUR - Euro',
+        'GBP - Libra Esterlina',
+        'ILS - Novo Shekel Israelense',
+        'JPY - Iene Japonês',
+        'LTC - Litecoin',
+        'USD - Dólar Comercial'
+        'USDT - Dólar Turismo',
         'XRP - Ripple']
 
         self.mainframe = ttk.Frame(self.root)
